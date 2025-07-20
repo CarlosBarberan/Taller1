@@ -24,6 +24,18 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "0e77095e-23b8-4cf6-b8ec-4fbc10b6ce57"
+      }
+    },
+    "owner": "cbarberan",
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/0e77095e-23b8-4cf6-b8ec-4fbc10b6ce57"
     }
   }
 }

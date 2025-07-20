@@ -80,19 +80,15 @@ export const LoginScreen = () => {
 
             // Usuario logueado exitosamente
             const user = userCredential.user;
-            console.log('Usuario logueado:', user.email);
-            
             showDialog(
                 '¡Inicio de Sesión Exitoso!', 
                 `Bienvenido de vuelta ${formLogin.email}. Has iniciado sesión correctamente.`, 
                 'success'
             );
-            
-            // Limpiar el formulario después del login exitoso
             setFormLogin({ email: '', password: '' });
-
-            // Aquí podrías navegar a la pantalla principal del juego
-            // navigation.navigate('GameScreen');
+            setTimeout(() => {
+                navigation.navigate('MainApp' as never);
+            }, 2000);
 
         } catch (error: any) {
             console.error('Error en el login:', error);

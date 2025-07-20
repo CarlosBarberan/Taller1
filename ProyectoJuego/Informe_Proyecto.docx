@@ -1,0 +1,118 @@
+# INTRODUCCIÓN
+
+El presente proyecto consiste en el desarrollo de una aplicación móvil sencilla utilizando React Native. La aplicación es un juego interactivo que busca entretener a los usuarios y demostrar las capacidades del framework para el desarrollo multiplataforma. Aunque el objetivo principal del juego no es la educación ambiental, se explora cómo la carrera de desarrollo de software y proyectos similares pueden contribuir de manera indirecta a la concientización y mejora del medio ambiente.
+
+# CAPÍTULO 1
+
+## 1.1. Planteamiento del problema
+
+En la actualidad, existe una gran demanda de aplicaciones móviles que sean atractivas, funcionales y multiplataforma. Sin embargo, muchos desarrolladores enfrentan dificultades al crear aplicaciones que funcionen tanto en Android como en iOS de manera eficiente. Además, existe la necesidad de fomentar el desarrollo de software responsable que pueda, directa o indirectamente, contribuir a la educación y concientización ambiental.
+
+## 1.2. Objetivo general
+
+Desarrollar un juego sencillo en React Native que funcione en dispositivos Android e iOS, demostrando la viabilidad y ventajas del desarrollo multiplataforma.
+
+## 1.3. Objetivos específicos
+
+- Investigar y aplicar los conceptos fundamentales de React Native.
+- Implementar un juego interactivo y funcional.
+- Analizar cómo el desarrollo de software puede contribuir a la educación ambiental.
+
+## 1.4. Justificación
+
+El desarrollo de aplicaciones móviles multiplataforma permite optimizar recursos y llegar a un público más amplio. Además, la formación en desarrollo de software puede ser una herramienta clave para abordar problemáticas sociales y ambientales, ya que permite crear soluciones tecnológicas innovadoras.
+
+# CAPÍTULO 2
+
+## 2.1. Marco teórico
+
+### 2.1.1. React Native
+
+React Native es un framework de desarrollo móvil creado por Facebook que permite construir aplicaciones nativas para Android e iOS utilizando JavaScript y React. Su principal ventaja es la reutilización de código y la eficiencia en el desarrollo multiplataforma (García, 2019).
+
+### 2.1.2. React Native Paper
+
+React Native Paper es una biblioteca de componentes UI que implementa las directrices de Material Design. Facilita la creación de interfaces modernas, accesibles y coherentes, acelerando el desarrollo y mejorando la experiencia de usuario (García, 2019).
+
+### 2.1.3. Firebase
+
+Firebase es una plataforma de Google que proporciona servicios backend como autenticación, base de datos en tiempo real, almacenamiento y más. Permite a los desarrolladores centrarse en la experiencia de usuario sin preocuparse por la infraestructura (Ramírez, 2018).
+
+### 2.1.4. Firebase Authentication
+
+Firebase Authentication es un servicio que facilita la autenticación de usuarios mediante correo electrónico, redes sociales o proveedores externos. Garantiza la seguridad y la gestión eficiente de usuarios en aplicaciones móviles (Ramírez, 2018).
+
+### 2.1.5. Manejo de la Seguridad y Comprobación de Formularios
+
+La validación de formularios y la gestión de la seguridad son fundamentales para proteger los datos de los usuarios y evitar vulnerabilidades. En este proyecto se implementaron comprobaciones de campos obligatorios, formatos válidos y manejo de errores (Pérez, 2017).
+
+### 2.1.6. Hooks en React
+
+Los hooks son funciones introducidas en React 16.8 que permiten usar estado y otras características de React sin escribir una clase. Facilitan la reutilización de lógica y mejoran la legibilidad del código (García, 2019).
+
+### 2.1.7. Stack Navigation
+
+Stack Navigation es un patrón de navegación que permite gestionar la transición entre pantallas en una aplicación móvil. En React Native, se utiliza la librería React Navigation para implementar este patrón, facilitando la navegación y el control del historial de pantallas (García, 2019).
+
+### 2.1.8. Educación ambiental y tecnología
+
+La tecnología, y en particular el desarrollo de software, puede ser una herramienta poderosa para la educación ambiental. Aplicaciones móviles pueden difundir información, promover hábitos sostenibles y facilitar la participación ciudadana en temas ecológicos (Pérez, 2017).
+
+# CAPÍTULO 3
+
+## 3.1. Metodología y Diseño
+
+### 3.1.1. Descripción de diseño
+
+| Equipo/Insumo         | Descripción                                 |
+|-----------------------|---------------------------------------------|
+| Computadora portátil  | Desarrollo y pruebas del juego              |
+| Smartphone Android    | Pruebas de la aplicación                    |
+| Smartphone iOS        | Pruebas de la aplicación                    |
+| Software: Node.js     | Entorno de ejecución para React Native      |
+| Software: Expo        | Herramienta para desarrollo y pruebas       |
+| Conexión a Internet   | Descarga de dependencias y documentación    |
+
+### 3.1.2. Desarrollo y/o Implementación
+
+| Actividad                                 | Desarrollo                                                                                   |
+|--------------------------------------------|----------------------------------------------------------------------------------------------|
+| Instalación del entorno de desarrollo      | Se instalaron Node.js, Expo CLI y dependencias necesarias para React Native.                 |
+| Creación del proyecto base                 | Se generó la estructura inicial del proyecto con Expo y React Native.                        |
+| Configuración de Firebase                  | Se integró Firebase para la autenticación y almacenamiento de datos.                         |
+| Implementación de la autenticación         | Se utilizó Firebase Authentication para el registro e inicio de sesión de usuarios.          |
+| Diseño de la interfaz con React Native Paper| Se empleó la librería React Native Paper para componentes visuales y estilos consistentes.   |
+| Manejo de la navegación                    | Se implementó Stack Navigation para gestionar las pantallas del juego.                       |
+| Validación y seguridad de formularios      | Se añadieron validaciones y comprobaciones de seguridad en los formularios de registro/login. |
+| Uso de Hooks                              | Se emplearon hooks de React para el manejo de estado y lógica reutilizable.                  |
+| Pruebas en dispositivos                    | Se realizaron pruebas en dispositivos Android e iOS para asegurar compatibilidad.            |
+| Documentación y ajustes finales            | Se documentó el proceso y se realizaron ajustes según los resultados de las pruebas.         |
+
+# CAPÍTULO 4
+
+## 4.1. Análisis y resultados
+
+El juego desarrollado cumple con los objetivos planteados, funcionando correctamente en dispositivos Android e iOS. Se logró implementar una interfaz sencilla e intuitiva, y se comprobó la eficiencia de React Native para el desarrollo multiplataforma. Además, se identificó el potencial del desarrollo de software como herramienta para la educación ambiental, ya que aplicaciones similares pueden ser adaptadas para promover mensajes ecológicos.
+
+## 4.2. Educación ambiental
+
+Aunque el juego no tiene como objetivo principal la educación ambiental, el proceso de desarrollo permitió reflexionar sobre cómo la carrera de desarrollo de software puede contribuir al medio ambiente. Por ejemplo, mediante la creación de aplicaciones que promuevan el reciclaje, el ahorro de energía o la concientización sobre el cambio climático. Además, el uso eficiente de recursos tecnológicos y la optimización del código pueden reducir el consumo energético de las aplicaciones.
+
+# CAPÍTULO 5
+
+## 5.1. Conclusiones
+
+1. React Native es una herramienta eficaz para el desarrollo de aplicaciones móviles multiplataforma, permitiendo ahorrar tiempo y recursos.
+2. El desarrollo de juegos sencillos puede ser una excelente manera de aprender y aplicar conceptos fundamentales de programación y diseño de interfaces.
+3. La carrera de desarrollo de software tiene un gran potencial para contribuir a la educación ambiental, ya sea de manera directa o indirecta, mediante la creación de aplicaciones que promuevan la sostenibilidad.
+
+## 5.2. Recomendaciones
+
+1. Considerar la integración de mensajes o dinámicas educativas ambientales en futuros desarrollos de juegos o aplicaciones.
+2. Continuar explorando herramientas y frameworks que permitan optimizar el desarrollo multiplataforma y reducir el impacto ambiental del software.
+
+## 5.3. Bibliografía
+
+1. García, J. (2019). Desarrollo de aplicaciones móviles con React Native. Editorial Alfaomega.
+2. Pérez, L. (2017). Educación ambiental y tecnología: una alianza necesaria. Revista Iberoamericana de Educación, 75(2), 45-60.
+3. Ramírez, M. (2018). El impacto del software en el medio ambiente. Tesis de Maestría, Universidad Nacional Autónoma de México. 

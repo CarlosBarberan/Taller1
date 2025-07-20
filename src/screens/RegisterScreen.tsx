@@ -86,16 +86,15 @@ export const RegisterScreen = () => {
 
             // Usuario creado exitosamente
             const user = userCredential.user;
-            console.log('Usuario registrado:', user.email);
-            
             showDialog(
                 '¡Registro Exitoso!', 
                 `Bienvenido ${formRegister.email}. Tu cuenta ha sido creada correctamente.`, 
                 'success'
             );
-            
-            // Limpiar el formulario después del registro exitoso
             setFormRegister({ email: '', password: '' });
+            setTimeout(() => {
+                navigation.navigate('MainApp' as never);
+            }, 2000);
 
         } catch (error: any) {
             console.error('Error en el registro:', error);

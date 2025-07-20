@@ -2,6 +2,7 @@ import React from 'react';
 import { createStackNavigator } from '@react-navigation/stack';
 import { RegisterScreen } from '../screens/RegisterScreen';
 import { LoginScreen } from '../screens/LoginScreen';
+import { BottomTabNavigator } from './BottomTabNavigator';
 
 const Stack = createStackNavigator();
 
@@ -28,6 +29,13 @@ export const StackNavigator = () => {
         name="Register" 
         component={RegisterScreen} 
         options={{ title: 'Registrarse' }}
+      />
+      <Stack.Screen 
+        name="MainApp" 
+        component={BottomTabNavigator} 
+        options={{ 
+          headerShown: false // Ocultar header para el Bottom Tab Navigator
+        }}
       />
     </Stack.Navigator>
   );

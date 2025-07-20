@@ -2,6 +2,7 @@
 import { initializeApp } from "firebase/app";
 import { getAnalytics, isSupported } from "firebase/analytics";
 import { getAuth } from "firebase/auth";
+import { getFirestore } from "firebase/firestore";
 
 // TODO: Add SDKs for Firebase products that you want to use
 // https://firebase.google.com/docs/web/setup#available-libraries
@@ -29,3 +30,6 @@ isSupported().then(yes => yes ? analytics = getAnalytics(app) : null);
 
 // Initialize Auth with persistence for React Native
 export const auth = getAuth(app);
+
+// Initialize Firestore
+export const db = getFirestore(app);
